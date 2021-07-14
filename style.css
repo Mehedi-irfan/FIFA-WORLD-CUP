@@ -107,7 +107,9 @@ body{
 /* --------------------------------------------
 -------------------palyers-style-Start-------------
 ------------------------------------------------ */
-
+.container-player{
+    margin-bottom: 200px;
+}
 .player-blog{
     width: 1050px;
     transform: translate(159px, 72px);
@@ -159,4 +161,123 @@ body{
 }
 /* --------------------------------------------
 -------------------palyers-style-End-------------
+------------------------------------------------ */
+/* --------------------------------------------
+-------------------Highlight-style-start-------------
+------------------------------------------------ */
+
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 200px;
+}
+.hightlight-img img{
+    width: 80%;
+    margin-top: 70px;
+}
+.highlight-detail{
+  
+    padding-right: 69px;
+}
+.highlight-titel{
+    padding-left: 182px;
+    font-size: 48px;
+    color: #716363;
+}
+.highlight-info{
+    padding-left: 182px;
+    text-align: justify;
+    margin-bottom: 39px;
+}
+#btn{
+    margin-left: 182px;
+}
+/* --------------------------------------------
+-------------------Highlight-style-End-------------
+------------------------------------------------ */
+/* --------------------------------------------
+---------------latest-tournament-new-style-start-------------
+------------------------------------------------ */
+.latest-tournament-news-container{
+    padding: 20px 180px;
+    margin-bottom: 100px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #695c5c;
+    margin-bottom: 70px;
+}
+.latest-tournament-news{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+}
+.news{
+    width: 450px;
+    box-shadow: 20px 20px 50px grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.news-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.news-title{
+    font-size: 22px;
+    letter-spacing: 0.6px;
+    color: #5a4a4a;
+}
+.news-date{
+    font-size: 15px;
+    color: #494954;
+}
+/* --------------------------------------------
+---------------latest-tournament-new-style-end-------------
+------------------------------------------------ */
+/* --------------------------------------------
+---------------latest-FiFa-new-style-start-------------
+------------------------------------------------ */
+.latest-fifa-news-container{
+    padding: 20px 180px;
+    margin-bottom: 150px;
+}
+.lates-fifa-news{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+}
+.fifa-news-banner{
+    width: 450px;
+    box-shadow: 20px 20px 50px grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.thumnail img{
+    width: 100%;
+    border-radius: 10px;
+}
+.fifa-newses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+    margin-top: 32px;
+}
+.fifa-news{
+    width: 280px;
+    box-shadow: 20px 20px 50px grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+.fifa-news-banner2 img{
+    width: 100%;
+}
+/* --------------------------------------------
+---------------latest-FiFa-new-style-End-------------
+------------------------------------------------ */
+/* --------------------------------------------
+---------------background-image-style-start-------------
 ------------------------------------------------ */
