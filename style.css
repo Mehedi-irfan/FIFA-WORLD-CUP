@@ -147,7 +147,6 @@ body{
     border-radius: 10px;
 }
 .player-img{
-    /* padding: 15px; */
     overflow: hidden;
 }
 .player-img img{
@@ -375,8 +374,15 @@ body{
     text-decoration: none;
     font-size: 20px;
     background-color: #E02C6D;
+    border: 2px solid #E02C6D;
     padding: 8px 24px;
     border-radius: 28px;
+    transition: 0.6s ease-in;
+}
+.link-button:hover{
+    background-color: navy;
+    border: 2px solid #fff;
+    color: #FFF;
 }
 /* --------------------------------------------
 ---------------background-image-style-end-------------
@@ -422,3 +428,148 @@ body{
     margin-left: 81px;
     color: #736666;
 }
+/* --------------------------------------------
+---------------Footer-section-style-End-------------
+------------------------------------------------ */
+/* --------------------------------------------
+---------------Media Quari-start-------------
+------------------------------------------------ */
+/* --------------------------------------------
+---------------Mobile device-------------------
+------------------------------------------------ */
+@media only screen and (max-width:688px) {
+    .navbar{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .nav-link ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .nav-link ul li{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .log-in{
+       text-align: center;
+        margin-right: 0px;
+    }
+    /* ----header-banner start------- */
+    .container{
+        width: 100%;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-header, .live-button{
+        margin-left: 40px;
+    }
+     /* ----header-banner end------- */
+      /* ----players blog start------- */
+      .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 27px;
+    }
+    
+    .player-blog{
+        transform: translate(0px);  
+    }
+     /* ----players blog End------- */
+      /* ----Highlight  start------- */
+      .highlight{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlight-titel, .highlight-info {
+        padding-left: 73px;
+        text-align: center;
+    }
+    .hightlight-img img{
+        padding-left:40px;
+    }
+    #btn{
+        padding-left: 0px;
+        margin-left: 106px;
+
+    }
+  /* ----Highlight  End------- */
+
+    /* ----latest tournament  start------- */
+
+
+
+    .latest-tournament-news-container{
+        padding:0;
+    }
+    .latest-tournament-news{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 40px;
+    }
+    .news{
+        width: 80%;
+        margin-left: 15px;
+    }
+      /* ----latest tournament  End------- */
+
+        /* ----latest new  start------- */
+        .latest-fifa-news-container{
+            padding: 0px;
+        }
+        .lates-fifa-news{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-gap: 40px;
+        }
+        .fifa-news-banner{
+            width: 80%;
+            margin-left: 15px;
+        }
+        .fifa-newses{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-gap: 25px;
+            margin-top: 32px;
+            justify-content: center;
+        }
+        .fifa-news{
+           margin-left: 30px;
+        }
+          /* ----latest new  end------- */
+
+            /* ----background img  start------- */
+
+        .bg-img img{
+           
+            width: 100%;
+        }
+        .bg-img-detail{
+            padding:165px 39px;
+        }
+         /* ----background img  End------- */
+          /* ----footer start------- */
+          .footer-img img{
+            width: 300px;
+            height: 100px;
+        } 
+        .footer-text p{
+            margin-left: 0px;
+        }
+      .link-icon ul{
+          padding: 0px;
+      }
+        .link-icon ul li{
+            font-size: 18px;
+            margin-left: 5px;
+        }
+         /* ----footer end------- */
+}
+/* --------------------------------------------
+---------------Media Quari-End-------------
+------------------------------------------------ */
