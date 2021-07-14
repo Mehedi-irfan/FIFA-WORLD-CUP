@@ -114,6 +114,8 @@ body{
 /* --------------------------------------------
 -------------------banner-style-End-------------
 ------------------------------------------------ */
+
+
 /* --------------------------------------------
 -------------------palyers-style-Start-------------
 ------------------------------------------------ */
@@ -438,6 +440,8 @@ body{
 ---------------Mobile device-------------------
 ------------------------------------------------ */
 @media only screen and (max-width:688px) {
+    
+    
     .navbar{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -473,16 +477,16 @@ body{
       .players{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 15px;
-        grid-row-gap: 27px;
+        margin-top: 30px;
     }
-    
+  
     .player-blog{
         transform: translate(0px);  
     }
      /* ----players blog End------- */
+
       /* ----Highlight  start------- */
-      .highlight{
+    .highlight{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -494,8 +498,8 @@ body{
         padding-left:40px;
     }
     #btn{
-        padding-left: 0px;
-        margin-left: 106px;
+        padding-left: 18px;
+        margin-left: 87px;
 
     }
   /* ----Highlight  End------- */
@@ -505,12 +509,11 @@ body{
 
 
     .latest-tournament-news-container{
-        padding:0;
+        padding:0px;
     }
     .latest-tournament-news{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-gap: 40px;
     }
     .news{
         width: 80%;
@@ -546,7 +549,6 @@ body{
             /* ----background img  start------- */
 
         .bg-img img{
-           
             width: 100%;
         }
         .bg-img-detail{
