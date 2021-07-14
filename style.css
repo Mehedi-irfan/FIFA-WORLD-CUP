@@ -440,7 +440,9 @@ body{
 ---------------Mobile device-------------------
 ------------------------------------------------ */
 @media only screen and (max-width:688px) {
-    
+    .header{
+        width: 100%;
+    }
     
     .navbar{
         display: grid;
@@ -474,19 +476,27 @@ body{
     }
      /* ----header-banner end------- */
       /* ----players blog start------- */
+      .container-player{
+          width: 100%;
+      }
       .players{
+          width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 30px;
     }
   
     .player-blog{
+        width: 100%;
         transform: translate(0px);  
     }
      /* ----players blog End------- */
 
       /* ----Highlight  start------- */
-    .highlight{
+    .HighLightt{
+        width: 100%;
+    }
+      .highlight{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -506,10 +516,11 @@ body{
 
     /* ----latest tournament  start------- */
 
-
+    
 
     .latest-tournament-news-container{
         padding:0px;
+        width: 100%;
     }
     .latest-tournament-news{
         display: grid;
@@ -522,6 +533,9 @@ body{
       /* ----latest tournament  End------- */
 
         /* ----latest new  start------- */
+       .Latest-FIFA-News{
+           width: 100%;
+       }
         .latest-fifa-news-container{
             padding: 0px;
         }
@@ -547,7 +561,9 @@ body{
           /* ----latest new  end------- */
 
             /* ----background img  start------- */
-
+        .background-image-container{
+            width: 100%;
+        }
         .bg-img img{
             width: 100%;
         }
@@ -556,6 +572,9 @@ body{
         }
          /* ----background img  End------- */
           /* ----footer start------- */
+         .footer{
+             width: 100%;
+         }
           .footer-img img{
             width: 300px;
             height: 100px;
